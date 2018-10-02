@@ -1,1 +1,22 @@
 #HTML to create box
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene >
+      <!-- Creating box with specific position, dimension, rotation and colour -->
+      <a-box position="-1 0.5 -3" 
+              width ="1"
+              height ="1"
+              depth = "1"
+              rotation="0 45 0" 
+              color="#4CC3D9" 
+              shadow></a-box>
+    </a-scene>
+  </body>
+</html>
