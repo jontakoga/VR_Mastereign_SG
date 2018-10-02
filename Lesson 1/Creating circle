@@ -1,5 +1,6 @@
 <!-- Creating a flat thin circle -->
-<a-circle color= "#333333"
+<a-circle  id="circle_1"
+           color= "#333333"
            side= "double"
            radius = "0.4"
            rotation = "0 0 0"
@@ -7,3 +8,16 @@
                    </a-circle>
                    
 <!-- More attributes for circle can be found on https://aframe.io/docs/0.8.0/primitives/a-circle.html -->
+
+
+<!--======================== -OR- ========================== -->
+<!-- thetaStart and thetaLength is for creating Pacman, or incomplete circle -->
+<a-entity id ="circle_1"
+                geometry="primitive: circle; 
+                          radius: 1;
+                          thetaStart: 45;
+                          thetaLength: 300"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 3 -5">
+      </a-entity>
