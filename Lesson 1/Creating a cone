@@ -1,0 +1,14 @@
+<-- Creating a cone, radiusTop is used if you wanted chopped off cone -->
+<!-- thetaStart and thetaLength can be changed if you want incomplete cone -->
+<a-entity id ="circle_1"
+                geometry="primitive: cone; 
+                          radiusTop: 0.01;
+                          radiusBottom: 1;
+                          height: 2;
+                          openEnded:false;
+                          thetaStart: 0;
+                          thetaLength: 360"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 4 -5">
+</a-entity>
