@@ -10,7 +10,8 @@
   <body>
     <a-scene >
       <!-- Creating box with specific position, dimension, rotation and colour -->
-      <a-box position="-1 0.5 -3" 
+      <a-box id ="box_1"
+              position="-1 0.5 -3" 
               width ="1"
               height ="1"
               depth = "1"
@@ -23,3 +24,19 @@
     </a-scene>
   </body>
 </html>
+
+
+
+
+
+<!--===================== OR ======================-->
+<!-- Alternative code to create a box -->
+<a-entity id ="box_1"
+                geometry="primitive: box; 
+                          width: 1; 
+                          height: 1; 
+                          depth: 1;"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 3 -5">
+</a-entity>
