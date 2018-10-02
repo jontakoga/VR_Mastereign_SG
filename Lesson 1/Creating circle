@@ -1,0 +1,9 @@
+<!-- Creating a flat thin circle -->
+<a-circle color= "#333333"
+           side= "double"
+           radius = "0.4"
+           rotation = "0 0 0"
+           position= "2 0 0.11">
+                   </a-circle>
+                   
+<!-- More attributes for circle can be found on https://aframe.io/docs/0.8.0/primitives/a-circle.html -->
