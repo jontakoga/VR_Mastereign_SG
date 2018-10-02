@@ -1,0 +1,13 @@
+<!-- Creating cylinder -->
+<!-- Omit segment-radial if you want smooth cylinder, change open-ended to true if you want a pipe-->
+
+      <a-cylinder position="1 0.75 -3" 
+                  radius="0.5"
+                  open-ended = "false"
+                  segments-radial="10"
+                  side="double"
+                  height="1.5" 
+                  color="#FFC65D" 
+                  shadow></a-cylinder>
+                  
+<!-- More attributes can be found on https://aframe.io/docs/0.8.0/primitives/a-cylinder.html -->
