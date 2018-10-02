@@ -17,6 +17,9 @@
               rotation="0 45 0" 
               color="#4CC3D9" 
               shadow></a-box>
+              
+       <!-- More attributes on box creation can be found on: https://aframe.io/docs/0.8.0/primitives/a-box.html#sidebar -->
+       
     </a-scene>
   </body>
 </html>
