@@ -5,3 +5,18 @@
           shadow></a-sphere>
           
 <!-- For more attributes on sphere, visit https://aframe.io/docs/0.8.0/components/geometry.html#sphere -->
+
+<!-- ============================ -OR- ==================-->
+<!-- phiStart and phiLength is to control how much sphere present in horizontal, thetaStart and thetaLength is to control how much sphere is present vertically -->
+<a-entity id ="sphere_1"
+                geometry="primitive: sphere; 
+                          radius: 1;
+                          phiStart:0
+                          phiLength:360;
+                          thetaStart: 0;
+                          thetaLength: 360;"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 3 -5"
+                rotation = " 0 0 0">
+                </a-entity>
