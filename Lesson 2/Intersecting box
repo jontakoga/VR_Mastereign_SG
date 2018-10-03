@@ -1,0 +1,17 @@
+<-- To get started load up the command from HTML starting point -->
+
+<!-- Light-Purple Box -->
+            <a-box color="#FF00FF"
+                   width="4" height="4" depth="4"
+                   position="-2 1.5 -6"
+                   rotation = "0 45 0"
+                   scale="1 1 1">
+            </a-box>
+      
+            <!-- Light blue box -->
+            <a-box color="#0088ff"
+                   width="4" height="4" depth="4"
+                   position="2 1.5 -6"
+                   rotation = "0 45 0"
+                   scale="1 1 1">
+            </a-box>
