@@ -1,0 +1,7 @@
+<a-entity id ="octa_1"
+                geometry="primitive: octahedron; 
+                          radius: 1;"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 3 -5">
+                </a-entity>
