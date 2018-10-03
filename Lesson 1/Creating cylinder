@@ -11,3 +11,19 @@
                   shadow></a-cylinder>
                   
 <!-- More attributes can be found on https://aframe.io/docs/0.8.0/primitives/a-cylinder.html -->
+
+<!-- ============================= -OR- =============================-->
+
+<a-entity id ="circle_1"
+                geometry="primitive: cylinder; 
+                          radius: 1;
+                          height: 4;
+                          openEnded:false;
+                          thetaStart: 0;
+                          thetaLength: 360;
+                          segmentsRadial: 36
+                          segmentsHeight: 18"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 5 -5">
+                </a-entity>
