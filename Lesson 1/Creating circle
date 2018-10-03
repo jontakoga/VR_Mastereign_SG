@@ -19,5 +19,6 @@
                           thetaLength: 300"
                 material="side:double;
                           color:#ff0000;"
-                position = "0 3 -5">
+                position = "0 3 -5"
+                rotation = " 0 0 0">
       </a-entity>
