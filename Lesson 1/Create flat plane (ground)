@@ -1,0 +1,21 @@
+<!-- Creating flat plane for the ground, do remember to put rotation at "-90 0 0" to make ground -->
+<a-plane id="Ground_1"
+               position = " 0 0 0"
+               height = "8"
+               width = "8"
+               color ="#0099ff"
+               rotation="-90 0 0">
+</a-plane>
+
+<!-- ========================= -OR- =========================== ->
+
+<a-entity id ="ground_1"
+                geometry="primitive: plane; 
+                          height: 8;
+                          width : 8;"
+                material="side:double;
+                          color:#ff0000;"
+                position = "0 0 0"
+                rotation = "-90 0 0">
+      </a-entity>
+
