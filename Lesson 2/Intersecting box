@@ -1,5 +1,10 @@
 <-- To get started load up the command from HTML starting point -->
 
+<!-- Asset Management System -->
+          <!--  <a-assets>
+                <img id="rust" src="https://cdn.glitch.com/1f884564-b9d0-4727-b281-31918df8f1ef%2Frust.jpg?1538532367894"></a-assets> -->
+          
+
 <!-- Light-Purple Box -->
             <a-box color="#FF00FF"
                    width="4" height="4" depth="4"
