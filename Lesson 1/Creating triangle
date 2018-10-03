@@ -1,0 +1,10 @@
+<-- Creating triangle, each vertex is the coordinate or location of edge in a triangle -->
+<a-entity id ="triangle"
+                geometry="primitive: triangle; 
+                          vertexA: 0 3 -5;
+                          vertexB: 3 3 -5
+                          vertexC: 1.5 4 -5"
+                material="side:double;
+                          color:#ff0000;"
+                rotation = "0 0 0">
+      </a-entity>
