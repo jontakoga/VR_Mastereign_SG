@@ -25,5 +25,6 @@
                           segmentsHeight: 18"
                 material="side:double;
                           color:#ff0000;"
-                position = "0 5 -5">
+                position = "0 5 -5"
+                rotation = " 0 0 0">
                 </a-entity>
