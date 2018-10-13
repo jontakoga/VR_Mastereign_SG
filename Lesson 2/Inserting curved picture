@@ -1,0 +1,22 @@
+<!-- Inserting Curved picture -->
+        <a-curvedimage src="#Pic_3"
+                       theta-start="135"
+                       theta-length="90"
+                       radius="0.707"
+                       height="0.833"
+                       position="0 1.5 0">
+        </a-curvedimage>
+      <a-curvedimage src="#Pic_1"
+                       theta-start="45"
+                       theta-length="90"
+                       radius="0.707"
+                       height="0.833"
+                       position="0 1.5 0">
+        </a-curvedimage>
+      <a-curvedimage src="#Pic_3"
+                       theta-start="225"
+                       theta-length="90"
+                       radius="0.707"
+                       height="0.833"
+                       position="0 1.5 0">
+        </a-curvedimage>
